@@ -1,6 +1,6 @@
 {
     "name": "Grafana Proxy",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "slug": "grafana_proxy",
     "description": "Grafana Proxy",
     "url": "https://github.com/nivg1992/hassio-grafana-proxy/tree/main/grafana-proxy",
@@ -14,16 +14,15 @@
     "boot": "auto",
     "init": true,
     "true": true,
-    "ingress": true,
-    "ingress_port": 8199,
-    "ingress_stream": true,
+    "ingress": false,
+    "webui": "http://[HOST]:[PORT:8199]",
     "timeout": 30,
     "panel_icon": "mdi:chart-bar",
     "map": [
       "config:ro"
     ],
     "ports": {
-      "8199/tcp": null
+      "8199/tcp": 8199
     },
     "ports_description": {
       "8199/tcp": "Frontend tcp-listen port"
