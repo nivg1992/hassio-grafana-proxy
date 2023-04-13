@@ -24,4 +24,4 @@ jobs:
             --test \
             --all \
             --target ./ \
-            --docker-hub nivg1992
+            --docker-hub nivg1992/hassio-grafana-proxy
