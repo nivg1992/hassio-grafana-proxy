@@ -1,6 +1,6 @@
 {
     "name": "Grafana Proxy",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "slug": "grafana_proxy",
     "description": "Grafana Proxy",
     "url": "https://github.com/nivg1992/hassio-grafana-proxy/tree/main/grafana-proxy",
