@@ -59,6 +59,7 @@ http {
             proxy_redirect              off;
             proxy_send_timeout          86400s;
             proxy_max_temp_file_size    0;
+            proxy_ssl_server_name on;
 
             proxy_set_header Authorization "$token";
             proxy_pass_header Authorization;
