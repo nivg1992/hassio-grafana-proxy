@@ -1,5 +1,5 @@
 {
     "name": "Grafana Addon",
-    "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt",
+    "url": "https://github.com/nivg1992/hassio-grafana-proxy",
     "maintainer": "Niv Gabay <nivg1992@gmail.com>"
   }
