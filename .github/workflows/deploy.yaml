@@ -22,5 +22,6 @@ jobs:
         with:
           args: |
             --all \
+            --docker-hub-check \
             --target ./grafana-proxy \
             --docker-hub nivg1992
