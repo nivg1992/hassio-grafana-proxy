@@ -1,5 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:13.2.0
-# hadolint ignore=DL3006
+ARG BUILD_FROM
 FROM ${BUILD_FROM}
 
 # Copy root filesystem
@@ -8,6 +7,8 @@ RUN apk add --no-cache --update nginx
 # Copy root filesystem
 ADD nginx.conf.gtpl /
 ADD entrypoint.sh /
+
+RUN chmod +x entrypoint.sh
 
 # Build arguments
 ARG BUILD_ARCH
